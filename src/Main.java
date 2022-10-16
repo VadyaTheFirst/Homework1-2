@@ -24,10 +24,10 @@ public class Main {
         }
         //Задча 3
         System.out.println("");
-        int y=12_000_000;
+        int populationY=12_000_000;
         for (i=0;i<=10;i++){
-           System.out.println("Год "+i+ " численность населения составляет "+ y);
-           y=y+(17-8)*(y/1000);
+           System.out.println("Год "+i+ " численность населения составляет "+ populationY);
+            populationY=populationY+(17-8)*(populationY/1000);
         }
         //Задание 2
         //Задача 1
@@ -81,7 +81,7 @@ public class Main {
         //Задача 2
         for (i=1;i<=10;i++)
         {
-            System.out.println(2*i);
+            System.out.println("2*"+i+"="+2*i);
         }
 
 
